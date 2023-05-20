@@ -1,0 +1,96 @@
+/* CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+  padding: 0 50px;
+}
+
+header {
+  background-color: #00ff6a;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+#first-heading {
+  margin-left: 80px;
+  padding-top: 35px;
+}
+
+#second-heading {
+  margin-left: 80px;
+  padding-top: 70px;
+}
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 90%;
+}
+
+.all-cards > .mk-card {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 150px;
+  margin: 10px;
+  display: inline-block;
+  transition: "transform 0.25s";
+}
+
+.mk-card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.mk-card h1 {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.mk-card p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.student-logo {
+  /* display: flex; */
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #a7a7a7;
+}
