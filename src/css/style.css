@@ -16,18 +16,33 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
   background-color: #00a2ff;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+  border-radius: 0 0 20px 20px;
 }
 
 header h1 {
+  position: relative;
+  left: 400px;
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 900;
   font-size: 50px;
+  margin-right: 650px;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-size: 19.3px;
 }
 
 #first-heading {
@@ -107,8 +122,15 @@ footer {
   bottom: 0px;
   width: 100%;
   height: 2.5rem;
+  background-color: #49bcff;
+  border-radius: 20px 20px 0 0;
 }
 
 footer p {
-  color: #a7a7a7;
+  color: #f7f7f7;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
 }
