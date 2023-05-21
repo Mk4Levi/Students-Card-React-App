@@ -1,6 +1,6 @@
 # Students-Card React-App
 
-## Project's Demo Link => https://students-card-react-app.vercel.app/
+## Project's Link => https://students-card-react-app.vercel.app/
 
 ## # This is a React App which renders list of all the Students and fetch random images from unsplash-API to show it on the Student Card.
 
