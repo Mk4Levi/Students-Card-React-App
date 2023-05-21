@@ -13,23 +13,23 @@ function CreateCard(data) {
 }
 
 function App() {
-  const listY20 = studentsData.bsbeY20.map(CreateCard);
-  const listY21 = studentsData.bsbeY21.map(CreateCard);
+  const listY22 = studentsData.bsbeY22.map(CreateCard);
+  const listY23 = studentsData.bsbeY23.map(CreateCard);
   return (
     <>
       <Header />
 
       <h1 id="first-heading">
-        <u>BSBE Students of &nbsp; Y-20</u> :
+        <u>Students of &nbsp; Y-22</u> :
       </h1>
 
-      <dl className="all-cards">{listY20}</dl>
+      <dl className="all-cards">{listY22}</dl>
 
       <h1 id="second-heading">
-        <u>BSBE Students of &nbsp; Y-21</u> :
+        <u>Students of &nbsp; Y-23</u> :
       </h1>
 
-      <dl className="all-cards">{listY21}</dl>
+      <dl className="all-cards">{listY23}</dl>
 
       <Footer />
     </>

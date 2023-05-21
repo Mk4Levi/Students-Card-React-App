@@ -2,7 +2,7 @@
 function Heading() {
   return (
     <header>
-      <h1 className="header">BSBE Students-List</h1>
+      <h1 className="header">Students-List CARDS</h1>
     </header>
   );
 }
