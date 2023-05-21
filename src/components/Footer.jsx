@@ -5,7 +5,7 @@ function Footer() {
   let currentYear = currentDate.getFullYear();
   return (
     <footer>
-      <p className="footer">Amrit Kumar || Copyright &copy; {currentYear}</p>
+      <p className="footer">Manthan-MK || Copyright &copy; {currentYear}</p>
     </footer>
   );
 }
