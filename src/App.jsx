@@ -20,13 +20,13 @@ function App() {
       <Header />
 
       <h1 id="first-heading">
-        <u>Students of &nbsp; Y-22</u> :
+        <u>Student's List - 1</u>
       </h1>
 
       <dl className="all-cards">{listY22}</dl>
 
       <h1 id="second-heading">
-        <u>Students of &nbsp; Y-23</u> :
+        <u>Student's List - 2</u>
       </h1>
 
       <dl className="all-cards">{listY23}</dl>

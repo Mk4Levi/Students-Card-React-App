@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #00ff6a;
+  background-color: #00a2ff;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -31,13 +31,31 @@ header h1 {
 }
 
 #first-heading {
-  margin-left: 80px;
-  padding-top: 35px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 550px;
+  padding: 12px;
+  border-radius: 15px;
+  color: #7700b7;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #second-heading {
-  margin-left: 80px;
-  padding-top: 70px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 550px;
+  padding: 12px;
+  border-radius: 15px;
+  color: #7700b7;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .all-cards {
